@@ -15,7 +15,7 @@ h1 {
 
 button {
     background-color: #823E56;
-    color: white;
+    color: #93254B;
     border: none;
     cursor: pointer;
     padding: 10px;
@@ -23,7 +23,7 @@ button {
 }
 
 button:hover {
-    background-color: #93254B;
+    background-color: white;
 }
 
 .stSelectbox, .stTextInput, .stNumberInput {
