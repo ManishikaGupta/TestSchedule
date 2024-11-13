@@ -7,7 +7,7 @@ import os
 # Load the CSV file
 df = pd.read_csv('pregnancy_tests_schedule.csv')
 
-# Generate voice instructions and save the file if it doesn't exist
+# Function to generate voice instructions and save the file if it doesn't exist
 def generate_voice_instructions():
     instructions = (
         "Welcome to the Pregnancy Blood Test Recommender. "
@@ -42,6 +42,11 @@ def generate_schedule(delivery_date):
         week_start = start_date + datetime.timedelta(weeks=row['Week'] - 1)
         schedule.append({"Week": row['Week'], "Date": week_start, "Test": row['Recommended Tests / Check-ups']})
     return pd.DataFrame(schedule)
+
+# Step 4: Add Custom CSS to Streamlit
+# You can add custom CSS using the markdown component
+with open('static/styles.css') as f:
+    st.markdown(f'<style>{f.read()}</style>', unsafe_allow_html=True)
 
 # Streamlit UI
 st.title("Pregnancy Blood Test Recommender with Schedule Generator")
