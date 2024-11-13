@@ -1,0 +1,51 @@
+/* Basic styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+    color: #6c63ff;
+}
+
+button {
+    background-color: #6c63ff;
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #5a54e4;
+}
+
+.stSelectbox, .stTextInput, .stNumberInput {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+
+.stNumberInput, .stTextInput, .stSelectbox {
+    margin-bottom: 20px;
+}
+
+.stButton {
+    width: 100%;
+    padding: 15px;
+    background-color: #6c63ff;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.stButton:hover {
+    background-color: #5a54e4;
+}
