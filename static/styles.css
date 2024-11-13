@@ -1,7 +1,7 @@
 /* Set background image for the entire page */
 body {
     font-family: Arial, sans-serif;
-    background-color: #f4f4f9;
+    background-color: #823E56;
     background-image: url('img.jpg');
     background-size: cover; /* Make the image cover the entire background */
     background-position: center; /* Center the background image */
