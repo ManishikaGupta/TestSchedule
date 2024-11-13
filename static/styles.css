@@ -9,8 +9,7 @@ body {
 /* Other custom styles */
 h1 {
     text-align: center;
-    color: white; /* Adjust text color for readability */
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Optional: Adds shadow to the text */
+    color: #93254B; /* Adjust text color for readability */
 }
 
 button {
@@ -23,7 +22,7 @@ button {
 }
 
 button:hover {
-    background-color: white;
+    background-color: 93254B;
 }
 
 .stSelectbox, .stTextInput, .stNumberInput {
