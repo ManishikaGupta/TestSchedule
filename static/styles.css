@@ -14,7 +14,7 @@ h1 {
 }
 
 button {
-    background-color: #6c63ff;
+    background-color: #823E56;
     color: white;
     border: none;
     cursor: pointer;
@@ -23,7 +23,7 @@ button {
 }
 
 button:hover {
-    background-color: #5a54e4;
+    background-color: #93254B;
 }
 
 .stSelectbox, .stTextInput, .stNumberInput {
@@ -41,12 +41,12 @@ button:hover {
 .stButton {
     width: 100%;
     padding: 15px;
-    background-color: #6c63ff;
+    background-color: #823E56;
     color: white;
     font-size: 16px;
     cursor: pointer;
 }
 
 .stButton:hover {
-    background-color: #5a54e4;
+    background-color: #93254B;
 }
