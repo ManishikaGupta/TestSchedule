@@ -2,7 +2,7 @@
 body {
     font-family: Arial, sans-serif;
     background-color: #f4f4f9;
-    background-image: url('static/background.jpg');
+    background-image: url('img.jpg');
     background-size: cover; /* Make the image cover the entire background */
     background-position: center; /* Center the background image */
     color: #333;
