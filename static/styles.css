@@ -1,15 +1,21 @@
-/* Basic styling */
+/* Set background image for the entire page */
 body {
     font-family: Arial, sans-serif;
     background-color: #f4f4f9;
+    background-image: url('static/background.jpg');
+    background-size: cover; /* Make the image cover the entire background */
+    background-position: center; /* Center the background image */
     color: #333;
     margin: 0;
     padding: 0;
+    height: 100vh; /* Make the background image take full screen height */
 }
 
+/* Other custom styles */
 h1 {
     text-align: center;
-    color: #6c63ff;
+    color: white; /* Adjust text color for readability */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Optional: Adds shadow to the text */
 }
 
 button {
