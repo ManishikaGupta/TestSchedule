@@ -2,13 +2,8 @@
 body {
     font-family: Arial, sans-serif;
     background-color: #823E56;
-    background-image: url('img.jpg');
-    background-size: cover; /* Make the image cover the entire background */
-    background-position: center; /* Center the background image */
-    color: #333;
     margin: 0;
     padding: 0;
-    height: 100vh; /* Make the background image take full screen height */
 }
 
 /* Other custom styles */
